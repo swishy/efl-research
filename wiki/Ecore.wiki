@@ -1,0 +1,8 @@
+#summary Some ideas about Ecore
+
+= Introduction =
+
+_Ecore_ currently has several *subsystems*, from basic data types (lists, double lists, ...) to specific purpose like _Ecore DirectFB_. As more subsystems get in the main _Ecore_, even if the different subsystems are well split (as they are now), the functionality of this library is far from its initial purpose and most of the subsystems can be another library.
+
+
+
