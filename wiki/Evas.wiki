@@ -1,1 +1,1 @@
-#summary Some ideas for Evas
+#summary Some ideas about Evas
