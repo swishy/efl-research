@@ -1,1 +1,13 @@
-#summary Some ideas about Evas
+#summary Some ideas about Evas.
+
+= Introduction =
+Most of the ideas exposed here come from a thread on the enlightenment-devel mailing list at [http://sourceforge.net/mailarchive/message.php?msg_id=36565630]
+
+= Data =
+= Render Pipeline (Canvas Side) =
+= Imaging =
+= Engines =
+Most of the engines use the software based engine and they inherit its main functions.
+
+== Common Software Engine ==
+
