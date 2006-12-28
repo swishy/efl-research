@@ -14,3 +14,7 @@ Most of the engines use the software based engine and they inherit its main func
 
 = Objects - Engines Relationship =
 == Current Scenario ==
+
+= New Object Types =
+== Filters ==
+== Proxies ==
