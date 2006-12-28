@@ -1,7 +1,7 @@
 #summary Some ideas about Evas.
 
 = Introduction =
-Most of the ideas exposed here come from a thread on the enlightenment-devel mailing list at [http://sourceforge.net/mailarchive/message.php?msg_id=36565630]
+Most of the ideas exposed here come from a couple of threads on the enlightenment-devel mailing list at [http://sourceforge.net/mailarchive/message.php?msg_id=36565630] and [http://sourceforge.net/mailarchive/message.php?msg_id=37463742]
 
 = Data =
 = Render Pipeline (Canvas Side) =
@@ -10,4 +10,3 @@ Most of the ideas exposed here come from a thread on the enlightenment-devel mai
 Most of the engines use the software based engine and they inherit its main functions.
 
 == Common Software Engine ==
-
