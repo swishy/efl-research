@@ -3,8 +3,12 @@
 = Introduction =
 Most of the ideas exposed here come from a couple of threads on the enlightenment-devel mailing list at [http://sourceforge.net/mailarchive/message.php?msg_id=36565630] and [http://sourceforge.net/mailarchive/message.php?msg_id=37463742]
 
+= Headers =
+Split huge headers (Evas.h evas_common.h) into smaller ones.
 = Data =
 = Canvas =
+== Objects ==
+Objects should be made loadable modules
 == Obscured Rectangles ==
 Areas where Evas doesn't need to redraw
 
