@@ -7,7 +7,7 @@ Most of the ideas exposed here come from a couple of threads on the enlightenmen
 Split huge headers ({{{Evas.h evas_common.h, etc}}}) into smaller ones.
 
 = Data =
-Evas has a very good support for data types (Lists, Hashes, Stringshare and Object Lists). And honestly have a very good performance and a well defined API, most of the E-developers agree on that, but is a problem that to use this data types on your application/library you have to link against Evas even if your development has nothing to do with Evas main purpose: graphics.
+Evas has a very good support for data types (Lists, Hashes, Stringshare and Object Lists) and honestly Evas has a very good performance and a well defined API, most of the E-developers agree on that. But is a problem that to use this data types on your application/library you have to link against Evas even if your development has nothing to do with Evas main purpose: graphics.
 
 = Canvas =
 
