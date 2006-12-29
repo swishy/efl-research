@@ -1,0 +1,3 @@
+#summary Some ideas about Esmart
+
+= Introduction =
