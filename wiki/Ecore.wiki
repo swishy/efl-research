@@ -7,5 +7,5 @@ _Ecore_ currently has several *subsystems*, from basic data types (lists, double
 = Subsystems =
 == Main Ecore ==
 === Ecore Plugin ===
-_Ecore Plugin_ has several functions that load modules of compiled code into memory, i.e dynamically loading of application's plugins. 
+_Ecore Plugin_ has several functions that load modules of compiled code into memory, i.e dynamically loading of application's plugins. It is written in a very generic way, but ironically almost all applications that use _Ecore_ as their main loop handler and has some kind of _module_ *don't use _Ecore Plugin_ for this task but their own implementation*
 == Ecore Data ==
