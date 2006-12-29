@@ -21,4 +21,6 @@ _Ecore Plugin_ has several functions that load modules of compiled code into mem
   * Evas
   * Esmart Container
   * Imlib2
+
+Doing a simple search for some library or application that use _Ecore Plugin_ shows that  *there isn't any development that use it*.
 == Ecore Data ==
