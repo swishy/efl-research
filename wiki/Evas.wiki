@@ -7,7 +7,9 @@ Most of the ideas exposed here come from a couple of threads on the enlightenmen
 = Canvas =
 == Obscured Rectangles ==
 Areas where Evas doesn't need to redraw
+
 [http://www.turran.org/files/wikis/efl-research/evas_obscured.png]
+
 == Render Pipeline (Canvas Side) ==
 = Imaging =
 = Engines =
