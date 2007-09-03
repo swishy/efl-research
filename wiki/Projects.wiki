@@ -1,7 +1,6 @@
-#List of projects under version control
+#summary List of projects under version control
 
   * Eix
   * Edata
   * Equis
   * Emage
-
