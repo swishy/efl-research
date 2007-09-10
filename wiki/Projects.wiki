@@ -1,8 +1,4 @@
 #summary List of projects under version control
 
-  * *Eix* Is a library for fixed-point arithmetic
-  * *Edata* Is a borrow from Ecore Data but in a stand alone library
-  * *Equis* Is a library to generate vector pipelines
   * *Emage* Evas common engine as a stand alone library
-  * *Eshm*
-  * *Emm*
+  * *Edata* Is a borrow from Ecore Data but in a stand alone library
