@@ -1,1 +1,4 @@
 #summary Coding style used for all projects
+
+= Indentation =
+= Naming Conventions =
