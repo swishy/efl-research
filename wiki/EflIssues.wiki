@@ -1,4 +1,4 @@
-#summary Current state and issues of the Elinghtemnet Foudnation Libraries
+#summary Current state and issues of the Enlightenment Foundation Libraries
 
 = Ecore =
 
