@@ -1,13 +1,24 @@
-#summary One-sentence summary of this page.
+#summary Current state and issues of the Elinghtemnet Foudnation Libraries
 
-= Introduction =
+= Ecore =
 
-Add your content here.
+_Ecore_ currently has several *subsystems*, from basic data types (lists, double lists, ...) to specific purpose like _Ecore DirectFB_. As more subsystems get in the main _Ecore_, even if the different subsystems are well split (as they are now), the functionality of this library is far from its initial purpose and most of the subsystems can be another library.
 
+== Ecore Plugin ==
+_Ecore Plugin_ has several functions that load modules of compiled code into memory, i.e dynamically loading of application's plugins. It is written in a very generic way, but ironically almost all applications that use _Ecore_ as their main loop handler (or just data library) and have some kind of _module_ concept, *don't use _Ecore Plugin_ for this task but their own implementation*, namely:
 
-= Details =
+(Ecore based applications/libraries)
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * Ewl
+  * Etk
+  * Etk Server
+  * Entropy
+
+(Not Ecore based applications/libraries)
+
+  * Evas
+  * Esmart Container
+  * Imlib2
+
+Doing a simple search for some library or application that use _Ecore Plugin_ shows that  *there isn't any development that use it*.
+== Ecore Data ==
