@@ -1,6 +1,7 @@
 #summary List of projects under version control
 
 = New EFL Stack =
+http://efl-research.googlecode.com/svn/trunk/web/projects-stack.png
 
   * *Eina* Is a borrow from Ecore Data but in a stand alone library
   * *Enesim*
