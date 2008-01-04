@@ -2,10 +2,11 @@
 
 = New EFL Stack =
 
-* *Eina* Is a borrow from Ecore Data but in a stand alone library
-* *Enesim*
-* *Ekeko*
-* *Evg*
+  * *Eina* Is a borrow from Ecore Data but in a stand alone library
+  * *Enesim*
+  * *Ekeko*
+  * *Evg*
 
 = Other projects =
   * *Emage* Evas common engine as a stand alone library
+  * *Essesions*
