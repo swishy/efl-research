@@ -4,9 +4,9 @@
 http://efl-research.googlecode.com/svn/trunk/web/projects-stack.png
 
   * *Eina* Is a borrow from Ecore Data but in a stand alone library
-  * *Enesim*
-  * *Ekeko*
-  * *Evg*
+  * *Enesim* Software graphics helper
+  * *Ekeko* Abstract canvas library
+  * *Evg* OpenVG implementation
 
 = Other projects =
   * *Emage* Evas common engine as a stand alone library
