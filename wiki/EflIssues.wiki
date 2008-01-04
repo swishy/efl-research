@@ -22,3 +22,18 @@ _Ecore Plugin_ has several functions that load modules of compiled code into mem
 
 Doing a simple search for some library or application that use _Ecore Plugin_ shows that  *there isn't any development that use it*.
 == Ecore Data ==
+
+= Evas =
+Most of the ideas exposed here come from a couple of threads on the enlightenment-devel mailing list at [http://sourceforge.net/mailarchive/message.php?msg_id=36565630] and [http://sourceforge.net/mailarchive/message.php?msg_id=37463742]
+
+== Headers ==
+Split huge headers ({{{Evas.h evas_common.h, etc}}}) into smaller ones.
+
+== Data ==
+Evas has a very good support for data types (Lists, Hashes, Stringshare and Object Lists) and honestly Evas has a very good performance and a well defined API, most of the E-developers agree on that. But is a problem that to use this data types on your application/library you have to link against Evas even if your development has nothing to do with Evas main purpose: graphics.
+
+== Objects ==
+Objects should be made loadable modules
+New Object Types:
+Filters
+Proxies
