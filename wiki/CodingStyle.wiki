@@ -2,3 +2,23 @@
 
 = Indentation =
 = Naming Conventions =
+  * All functions should have the verb at the end and separated by underscores
+{{{
+ekeko_object_add(Ekeko_Canvas *c);
+}}}
+  * All API functions should have the prefix EAPI
+{{{
+EAPI int eina_list_append(Eina_List * list, void *data);
+}}}
+  * Global variables but static should be underscored:
+{{{
+static int _my_global_bar;
+}}}
+  * Static functions should be underscored:
+{{{
+static int _my_local_func(void);
+}}}
+  * Functions accessible from other source files but not exported through the API should start with the project's name and then the subsystem:
+{{{
+Enesim_Rasterizer * enesim_rasterizer_new(void);
+}}}
