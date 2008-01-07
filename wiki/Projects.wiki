@@ -1,12 +1,20 @@
 #summary List of projects under version control
+#labels Featured
 
 = New EFL Stack =
 http://efl-research.googlecode.com/svn/trunk/web/projects-stack.png
 
-  * *Eina* Is a borrow from Ecore Data but in a stand alone library
-  * *Enesim* Software graphics helper
-  * *Ekeko* Abstract canvas library
-  * *Evg* OpenVG implementation
+== Eina ==
+Eina is a borrow from Ecore Data but in a stand alone library.
+
+== Enesim ==
+Enesim is a software graphics helper, it has several graphical algorithms, from rasterizers and renderers to blend operations, in a context free API.
+
+== Ekeko ==
+Ekeko is an abstract canvas library.
+
+== Evg ==
+Evg is a software (for now) based OpenVG implementation.
 
 = Other projects =
   * *Emage* Evas common engine as a stand alone library
