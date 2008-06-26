@@ -22,6 +22,8 @@ _Ecore Plugin_ has several functions that load modules of compiled code into mem
 
 Doing a simple search for some libraries or applications that use _Ecore Plugin_ shows that  *there isn't any development that use it*.
 
+Using the same Plugin technique it would be much more easy to add static module support to the EFL (We are loosing a lot of time during start up just doing link, that could be done once and for all in some case).
+
 == Ecore Data ==
 
 = Evas =
