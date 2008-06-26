@@ -21,6 +21,7 @@ _Ecore Plugin_ has several functions that load modules of compiled code into mem
   * Imlib2
 
 Doing a simple search for some library or application that use _Ecore Plugin_ shows that  *there isn't any development that use it*.
+
 == Ecore Data ==
 
 = Evas =
@@ -37,3 +38,26 @@ Objects should be made loadable modules
 New Object Types:
 Filters
 Proxies
+
+We should make the polygons a first class citizen, so that they could be used more easily. This means cleaning up what they mean and make move/resize work on them.
+
+We should define and give the possibility for smart object to use the render_pre and render_post if possible (during render_pre you are not allowed to move/resize/show/hide other object, so I don't know if it would be really usefull).
+
+== Engines ==
+All engines should currently be developped inside Evas. Most of their code are just a copy/paste and a nightmare to maintain. Engine could be divided in two categorie:
+
+   * the one than upload the pixels to the underlying system (OpenGL, Xrender, maybe Direct3D)
+   * the one that have a direct access to the pixels (software_x11, ddraw, sdl)
+
+And we have the corresponding two cache system :
+   * Evas_Cache_Engine_Image for the first case
+   * Evas_Cache_Image for the second case
+
+But most engine didn't use them really. So instead of merging code we are duplicating effort for nothing and worse we are loosing speed for most engine.
+
+We should also review the engine API to clean it up a bit.
+
+= Edje =
+
+It does recalc every thing each time a little stuff change, that's why we need edje_freeze/thaw. Their is no dependencies graph that would give us information about what need to be really recalc and during animation both start and end state are recalculated at each frame. This is a problem when you don't have FPU, you are loosing a lot of time doing the same math again and again.
+
