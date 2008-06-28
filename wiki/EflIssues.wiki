@@ -59,6 +59,16 @@ But most engine didn't use them really. So instead of merging code we are duplic
 
 We should also review the engine API to clean it up a bit.
 
+== Images ==
+
+Evas is all about image, but we have some serious limitation. We can't load/request image in the background and we dont share the pixels surface with other application.
+
+Sharing image with other application means that we need some kind of daemon that will do the image loading and answer to evas request. I believe that for ease of implementation and security the daemon must be per users. But this function should stay pluggable and not an absolute need to evas, as it would impact speed and memory consumption when only one application is running.
+
+Loading or requesting image in the background is absolutly needed if we want to do nice image viewer. It should stay optional as it will be in the critical path and we don't want to losse speed for this also. The logic behind this function is not linked with the previous, but they should work together.
+
+And as image surface are not always "sharable" in the same way on all architecture/engine. It should be possible to easily plug our own mecanism on a per engine basis.
+
 = Edje =
 
 It does recalc every thing each time a little stuff change, that's why we need edje_freeze/thaw. Their is no dependencies graph that would give us information about what need to be really recalc and during animation both start and end states are recalculated at each frame. This is a problem when you don't have FPU, you are loosing a lot of time doing the same math again and again.
