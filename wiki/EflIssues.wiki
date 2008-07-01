@@ -72,3 +72,5 @@ And as image surface are not always "sharable" in the same way on all architectu
 = Edje =
 
 It does recalc every thing each time a little stuff change, that's why we need edje_freeze/thaw. Their is no dependencies graph that would give us information about what need to be really recalc and during animation both start and end states are recalculated at each frame. This is a problem when you don't have FPU, you are loosing a lot of time doing the same math again and again.
+
+Textblock support could be improved. It would be great if the object could be resized depending on it's content, so that we could make other object depend on it's size.
