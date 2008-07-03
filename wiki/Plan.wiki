@@ -32,4 +32,4 @@ Evas Image support could benefit of some improvement as described in EflIssues.
   * Add inside Evas a way to optionaly request data pixels from an outside program.
   * Add a program to request pixels from a server.
   * Add a new Evas engine that send Evas engine order to another computer.
-  * Improve
+  * Improve Evoak to receive Evas engine order and directly send them to any Evas engine. (That's the part I am not sure about).
