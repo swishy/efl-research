@@ -61,6 +61,8 @@ But most engine didn't use them really. So instead of merging code we are duplic
 
 We should also review the engine API to clean it up a bit.
 
+I would like to make Evoak functionnality working with Evas again.
+
 == Images ==
 
 Evas is all about image, but we have some serious limitation. We can't load/request image in the background and we dont share the pixels surface with other application.
