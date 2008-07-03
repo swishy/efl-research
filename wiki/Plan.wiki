@@ -1,4 +1,4 @@
-#some kind of galatical domination plan, seriously :-) Ok, it's more about how to make the EFL definitively rocks.
+#summary some kind of galatical domination plan, seriously :-) Ok, it's more about how to make the EFL definitively rocks.
 
 = Data in the EFL =
 
@@ -6,15 +6,15 @@ As described inside [http://code.google.com/p/efl-research/wiki/EflIssues EflIss
 
 == The plan ==
 
-* Move Evas data type inside Evas_Data.h.
-* Introduce Eina inside EFL libs CVS.
-* Provide a set of macros to replace Evas data type by Eina one.
-* Add recent data type to Eina (Evas_Array, Evas_StringShare at least).
-* Make Evas depend on Eina.
-* Do the same for Eet data type.
-* Provide a set of macros or functions that do the same for Ecore data.
-* Improve Eina List allocation to do some garbage collection and reduce memory hole.
-* Improve Eina List merge sort (I have a pending one on my disk that is even faster than the one we have).
-* Improve Eina plugins support.
-* Move Evas plugins to Eina's one.
-* Move Ecore plugins to Eina's one.
+  * Move Evas data type inside Evas_Data.h.
+  * Introduce Eina inside EFL libs CVS.
+  * Provide a set of macros to replace Evas data type by Eina one.
+  * Add recent data type to Eina (Evas_Array, Evas_StringShare at least).
+  * Make Evas depend on Eina.
+  * Do the same for Eet data type.
+  * Provide a set of macros or functions that do the same for Ecore data.
+  * Improve Eina List allocation to do some garbage collection and reduce memory hole.
+  * Improve Eina List merge sort (I have a pending one on my disk that is even faster than the one we have).
+  * Improve Eina plugins support.
+  * Move Evas plugins to Eina's one.
+  * Move Ecore plugins to Eina's one.
