@@ -80,3 +80,10 @@ It does recalc every thing each time a little stuff change, that's why we need e
 Textblock support could be improved. It would be great if the object could be resized depending on it's content, so that we could make other object depend on it's size.
 
 We should add Polygons object support when Evas API is fixed.
+
+= Eet =
+
+It would be nice to have the possibility to cypher each Eet directory with a different key
+.
+
+It would be good if we can add other dumper/undumper like a JSON/EET converter.
