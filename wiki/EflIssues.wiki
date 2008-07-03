@@ -86,4 +86,6 @@ We should add Polygons object support when Evas API is fixed.
 It would be nice to have the possibility to cypher each Eet directory with a different key
 .
 
+Having a way to sign an entire Eet file would be a nice feature too.
+
 It would be good if we can add other dumper/undumper like a JSON/EET converter.
