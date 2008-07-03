@@ -16,5 +16,6 @@ As described inside [http://code.google.com/p/efl-research/wiki/EflIssues EflIss
   * Improve Eina List allocation to do some garbage collection and reduce memory hole.
   * Improve Eina List merge sort (I have a pending one on my disk that is even faster than the one we have).
   * Improve Eina plugins support.
+  * Add static plugins support to Eina.
   * Move Evas plugins to Eina's one.
   * Move Ecore plugins to Eina's one.
