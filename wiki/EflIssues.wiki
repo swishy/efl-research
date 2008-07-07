@@ -91,3 +91,5 @@ It would be nice to have the possibility to cypher each Eet directory with a dif
 Having a way to sign an entire Eet file would be a nice feature too.
 
 It would be good if we can add other dumper/undumper like a JSON/EET converter.
+
+Would be good if we could pack audio and video stream inside eet.
