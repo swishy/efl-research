@@ -47,6 +47,8 @@ We should make the polygons a first class citizen, so that they could be used mo
 
 We should define and give the possibility for smart object to use the render_pre and render_post if possible (during render_pre you are not allowed to move/resize/show/hide other object, so I don't know if it would be really usefull).
 
+We should fixe the text object support. It must be possible to include other evas object in the text path. It would be nice if the rendered text could follow some curve or some kind of non linear path.
+
 == Engines ==
 All engines should currently be developped inside Evas. Most of their code are just a copy/paste and a nightmare to maintain. Engine could be divided in two categorie:
 
