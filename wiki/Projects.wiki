@@ -1,23 +1,26 @@
 #summary List of projects under version control
 #labels Featured
 
-= New EFL Stack =
-http://efl-research.googlecode.com/svn/trunk/web/projects-stack.png
+= Projects already moved into E's svn =
+  * Etch
+  * Eina
+  * Enesim
 
-== Eina ==
-Eina is a borrow from Ecore Data but in a stand alone library.
-
-== Enesim ==
-Enesim is a software graphics helper, it has several graphical algorithms, from rasterizers and renderers to blend operations, in a context free API.
+= Active projects =
+== Emage ==
+Emage is an image loader/saver which reads/writes Enesim's Surfaces. It has a modular approach and supports sync and async operation.
 
 == Ekeko ==
-Ekeko is an abstract canvas library.
+Ekeko is a property/OO system. It has been inspired by the DOM object system and the current Etk type system. It includes event handling, abstract canvas and renderables, single and double state properties, user defined property types, beside other features.
 
-== Etch ==
-Etch's idea is to be a library for animations, but not depending on a specific timer or object's properties implementation.
+== Etk2 ==
+A new Etk!!! :)
 
 == Equanime ==
 Equanime's goal is to be a light layer above embedded graphics hardware.
+
+== ESVG ==
+A SVG implementation
 
 == Evg ==
 Evg is a software (for now) based OpenVG implementation.
