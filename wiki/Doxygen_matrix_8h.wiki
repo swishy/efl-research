@@ -1,0 +1,249 @@
+#summary Documentation for the matrix.h file
+
+= matrix.h =
+
+
+
+== Functions ==
+
+ MATRIX_XX( )
+  **
+ MATRIX_XY( )
+  **
+ MATRIX_XZ( )
+  **
+ MATRIX_YX( )
+  **
+ MATRIX_YY( )
+  **
+ MATRIX_YZ( )
+  **
+ MATRIX_ZX( )
+  **
+ MATRIX_ZY( )
+  **
+ MATRIX_ZZ( )
+  **
+ MATRIX_SIZE()
+  **
+ QUAD_X0( )
+  **
+ QUAD_Y0( )
+  **
+ QUAD_X1( )
+  **
+ QUAD_Y1( )
+  **
+ QUAD_X2( )
+  **
+ QUAD_Y2( )
+  **
+ QUAD_X3( )
+  **
+ QUAD_Y3( )
+  **
+
+== Detailed Description ==
+
+
+
+
+== Function Documentation ==
+
+{{{
+# MATRIX_XX   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_XY   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_XZ   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_YX   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_YY   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_YZ   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_ZX   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_ZY   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_ZZ   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# MATRIX_SIZE   (
+  )
+}}}
+  
+  
+
+
+{{{
+# QUAD_X0   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# QUAD_Y0   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# QUAD_X1   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# QUAD_Y1   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# QUAD_X2   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# QUAD_Y2   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# QUAD_X3   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+{{{
+# QUAD_Y3   (
+     )
+}}}
+  
+  
+
+*Parameters*:
+  a   And two parameters. 
+  b   Here's the second. 
+
+---
+|| [Doxygen Main Page] || [Doxygen_files Files] ||
