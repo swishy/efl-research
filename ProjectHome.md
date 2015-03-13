@@ -1,0 +1,1 @@
+A research project that aims to study the Enlightenment Foundation Libraries and suggest improvements to them in various ways and places.
